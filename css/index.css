@@ -3,6 +3,11 @@ body {
     color: #727E8C;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
