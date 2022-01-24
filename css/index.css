@@ -113,7 +113,7 @@ a {
 }
 
 .price-item {
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 .feature-item,
@@ -125,10 +125,100 @@ p {
 }
 
 .container {
-    width: 300px;
+    width: 350px;
     height: auto;
     background-color: white;
     justify-content: center;
+}
+
+.price_plan_card {
+    background-color: #e4e4e4;
+}
+
+.price_tag {
+    background-color: #f6f6f6;
+    padding: 10px;
+    color: #414141;
+    display: block;
+}
+
+.sign {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.price_tag .currency {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.price_tag .cent {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.price_tag .month {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+.price_plan_card:hover {
+    background-color: #40cc71;
+}
+
+.price_list {
+    padding-top: 40px;
+    background-color: white;
+}
+
+.price_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price_list ul li {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.price_list ul li span {
+    color: black;
+}
+
+.price_list ul li:hover {
+    background-color: #e4e4e4;
+}
+
+.price_button {
+    background-color: white;
+    border: 1px solid #40cc71;
+    border-radius: 25px;
+    color: #40cc71;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.price_button:hover {
+    background-color: #40cc71;
+    color: white;
 }
 
 .feature-item,
@@ -147,7 +237,7 @@ h1 {
 }
 
 .image {
-    background: url('../img/banner-bg.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
