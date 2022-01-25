@@ -296,3 +296,13 @@ input[type=submit]:hover {
 .feature-item p {
     text-align: start;
 }
+
+.icon {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 15px;
+    font-size: small;
+}
