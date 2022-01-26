@@ -40,7 +40,7 @@ a {
     background-size: cover;
 }
 
-.grid-container {
+.hero-section {
     display: grid;
     grid-template-columns: auto auto;
     padding-left: 30px;
@@ -51,7 +51,7 @@ a {
     margin-right: 5%;
 }
 
-.grid-item .col {
+.hero-item .col {
     margin: 0 auto;
     padding-right: 30px;
     padding-left: 50px;
@@ -61,7 +61,7 @@ a {
     margin: -25px 0 0 -25px;
 }
 
-.grid-item .col h1 {
+.hero-item .col h1 {
     color: white;
     font-weight: 300;
     font-size: 45px;
